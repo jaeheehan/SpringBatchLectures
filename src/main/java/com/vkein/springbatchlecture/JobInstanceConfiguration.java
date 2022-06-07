@@ -17,8 +17,8 @@ public class JobInstanceConfiguration {
     private final StepBuilderFactory stepBuilderFactory;
 
     @Bean
-    public Job job(){
-        return jobBuilderFactory.get("job")
+    public Job batchJob1(){
+        return jobBuilderFactory.get("batchJob1")
                 .start(step1())
                 .next(step2())
                 .build();
