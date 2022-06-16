@@ -8,7 +8,7 @@ spring:
     activate:
       on-profile: mysql
   datasource:
-      url: jdbc:mysql://local-dev.apl-golf.com:33307/batch?useSSL=false&useUnicode=true&characterEnconding=utf8
+      url: jdbc:mysql://local.mysql.com:33307/batch?useSSL=false&useUnicode=true&characterEnconding=utf8
       username: root
       password: fixel12!@
       driver-class-name: com.mysql.cj.jdbc.Driver
